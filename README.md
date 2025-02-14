@@ -8,13 +8,13 @@ Ce projet a pour objectif d'implémenter un algorithme parallélisé pour calcul
 
 - L'algorithme suit les étapes suivantes :
 
-1. Génération aléatoire d'un ensemble de points.
+    - Génération aléatoire d'un ensemble de points.
 
-2. Diviser l'ensemble en deux sous-ensembles.
+    - Diviser l'ensemble en deux sous-ensembles.
 
-3. Calculer l'enveloppe convexe haute pour chaque sous-ensemble en parallèle.
+    - Calculer l'enveloppe convexe haute pour chaque sous-ensemble en parallèle.
 
-4. Fusionner les deux sous-enveloppes pour obtenir l'enveloppe finale.
+    - Fusionner les deux sous-enveloppes pour obtenir l'enveloppe finale.
 
 - Deux versions parallèles sont implémentées :
 
